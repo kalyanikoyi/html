@@ -1,0 +1,62 @@
+.box1, .box2{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+ div.container p:first-child{
+    color: red;
+}
+div.container p:last-child{
+    color: blue;
+} 
+
+ 
+div.container p:first-of-type{
+    color: hotpink;
+}
+div.container p:last-of-type{
+    color:green;
+}
+
+
+
+ div.container p:nth-child(1){
+color: blue;
+}
+div p:nth-child(2){
+    color:hotpink;
+}
+
+
+
+ div p:nth-child(even){
+    color: blue;
+}
+div p:nth-last-child(2){
+    color: hotpink;
+ }
+
+div p:nth-of-type(1){
+    color: blue;
+}
+div p:nth-last-of-type(1){
+    color: grey;
+}
+div :only-of-type{
+    color: lawngreen;
+}
+
+
+
+ 
+div :only-child{
+    color: blue;
+}
+div :empty{
+    background-color: red;
+    height: 20px;
+    width: 50px;
+}
+div.box1 :not(p){
+    color:red ;
+} 

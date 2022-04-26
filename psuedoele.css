@@ -1,0 +1,16 @@
+p::first-line{
+    color:red
+}
+p::first-letter{
+    font-size: 50px;
+}
+p::selection{
+    font-size: 50px;
+}
+li::marker{
+    font-size: 50px;
+    color: red;
+}
+li{
+    font-size: 40px;
+}
